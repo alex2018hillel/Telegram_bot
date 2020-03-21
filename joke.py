@@ -1,4 +1,6 @@
+# -*- coding: utf-8 -*-
 import telebot, bs4, requests
+
 bot = telebot.TeleBot("804665851:AAFMVbf4aPK5ANVk3GhE0q42m3hIP-JR10E")
 
 def getanekdot():
