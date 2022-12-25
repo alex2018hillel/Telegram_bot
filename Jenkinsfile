@@ -3,7 +3,7 @@ pipeline {
  stages {
   stage ("python") {
      steps {
-       sh "source /var/lib/jenkins/workspace/pip/env/bin/activate"
+       sh "python3 --version"
      }
    }
    stage ("joke") {
