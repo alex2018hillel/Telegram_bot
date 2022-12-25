@@ -1,9 +1,9 @@
 pipeline {
  agent any
  stages {
-   stage ('joke') {
+   stage ("joke") {
      steps {
-       sh 'python joke.py'
+       sh "python joke.py"
      }
    }
  }
