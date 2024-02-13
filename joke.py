@@ -23,12 +23,12 @@ def handle_text(message):
         except:
             pass
     else:
-        bot.send_message(message.from_user.id, u'Даша, напишите мне слово Анекдот')
+        bot.send_message(message.from_user.id, u'Даша, напишите мне слово "анекдот"')
 
 bot.polling(none_stop=True, timeout=123)
 
 @bot.message_handler(commands=['start', 'help'])
 def handle_start_help(message):
-    bot.send_message(message.from_user.id, u'Даша, напишите мне слово Анекдот')
+    bot.send_message(message.from_user.id, u'Даша, напишите мне слово "анекдот"')
 
 bot.polling(none_stop=True, interval=0)
